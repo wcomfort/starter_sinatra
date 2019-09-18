@@ -10,4 +10,4 @@
 - Be sure to have links that let your user move around--they should never have to type in a URL
 - Be creative!  Push yourselves to learn new things.
 
-- <h5> **Do not cut and paste code.**</h5>
+- <h4>**Do not cut and paste code.**</h4>
