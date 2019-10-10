@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Critic</title>
+</head>
+<body>
+    <h1><%= @critic.name %></h1>
+    <h2><%= @critic.soc_med %></h2>
+
+    <form action="/critics/<%= @critic.id %>" method="POST">
+        <input type="hidden" name="_method" value="delete">
+        <input type="submit" value="Delete this Critic">
+    </form>
+    
+</body>
+</html>
